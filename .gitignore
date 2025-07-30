@@ -1,0 +1,28 @@
+# Local Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfplan
+*.tfr
+.terraform.lock.hcl
+
+# Local Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.env
+.venv
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# IDE / Editor specific files
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
